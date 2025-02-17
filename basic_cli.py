@@ -42,7 +42,7 @@ def mover_para_home(robo):
         )
         spinner.ok("✔ Home alcançado!")  # Atualiza o spinner com mensagem de sucesso
 
-def controle_manual(robo, delta=5, interval=0.005):
+def controle_manual(robo, delta=20, interval=0.005):
     """
     Permite mover o robô manualmente usando várias teclas:
       - Setas ←/→: movimento no eixo X
